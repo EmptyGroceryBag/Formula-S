@@ -3,8 +3,8 @@ input = game:GetService("ContextActionService")
 
 
 
-seat = game.Workspace.seat -- placeholder seat until there actually is one
-shaft = game.Workspace.output_shaft
+seat = script.Parent.Parent.seat -- placeholder seat until there actually is one
+shaft = script.Parent.Parent.output_shaft
 
 currentGear = 0 -- zero is neutral, negative one is not a gear!!!
 neutralPos = 1.1
