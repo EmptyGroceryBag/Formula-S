@@ -69,6 +69,6 @@ function downShift(action, input, object)
   end
 end
 
--- trouble with input again grrrrr
+
 input:BindAction("up shift", upShift, false, Enum.KeyCode.F)
 input:BindAction("down shift", downShift, false, Enum.KeyCode.V)
