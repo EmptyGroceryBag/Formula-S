@@ -6,7 +6,7 @@ input = game:GetService("ContextActionService")
 seat = script.Parent.Parent.seat -- placeholder seat until there actually is one
 shaft = script.Parent.Parent.output_shaft
 
-currentGear = 0 -- zero is neutral, negative one is not a gear!!!
+currentGear = script.Parent.currentGear.Value-- why doesn't this work??
 neutralPos = 1.1
 positionMod = 0.17
 
