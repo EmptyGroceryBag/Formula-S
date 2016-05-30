@@ -4,7 +4,7 @@
 
 parentFolder = script.Parent.Parent
 children = parentFolder:GetChildren()
-button = parentFolder.unanchorButton.SurfaceGui.Frame.TextButton
+button = parentFolder.unanchorButton.SurfaceGui.TextButton
 baseplate = game.Workspace.Baseplate
 
 function unanchor()

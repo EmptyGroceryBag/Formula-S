@@ -8,7 +8,7 @@ shaft = script.Parent.Parent.output_shaft
 
 currentGear = 0 -- zero is neutral, negative one is not a gear!!!
 neutralPos = 1.1
-positionMod = 0.15
+positionMod = 0.17
 
 function upShift(action, input, object)
   if seat.Occupant then
